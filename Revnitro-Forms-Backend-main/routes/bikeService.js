@@ -30,6 +30,12 @@ router.post("/", async (req, res) => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mention Notification</title>
         <style>
+          .msg-4476271227934868342 .m_-4476271227934868342bigdiv {
+          width: 100%;
+          display: flex;
+          margin-top: 40px;
+          justify-content: center;
+        }
           .notification-container {
             font-family: sans-serif;
             max-width: 100%;
@@ -91,72 +97,302 @@ router.post("/", async (req, res) => {
     </html>
     `;
     const customercontent = `
+    
     <!DOCTYPE html>
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Mention Notification</title>
-        <style>
-          .notification-container {
-            font-family: sans-serif;
-            max-width: 100%;
-            margin: 0 auto;
-          }
+        <title>Bike Service</title>
+    <style>
 
-          .notification-content {
-            margin-bottom: 20px;
-          }
+      a {
+        text-decoration: none;
+      }
 
-          .button-link {
-            display: inline-block;
-            padding: 10px 20px;
-            font-size: 16px;
-            background-color: #f01f1f;
-            color: #fff;
-            border-radius: 5px;
-            text-decoration: none;
-            border: none;
-            cursor: pointer;
-          }
+      .gshehehe {
+        width: 120px;
+        margin-top: 10px;
+        margin-bottom: -14px;
+      }
 
-          .button-link:hover {
-            background-color: #6af071;
-          }
+      .ksijkkrkk5545,
+      .ijrtiririririri {
+        font-family: "Poppins", sans-serif;
+        color:"#000";
+      }
+      @media (min-width: 1000px) {
+        .ijrtiririririri {
+          font-family: "Poppins", sans-serif;
+          font-size: 18px;
+          font-weight: 600;
+          margin-top: 20px;
+          text-align: justify;
+          color:"#000";
+        }
 
-          .logo-container {
-            margin-top: 20px;
-          }
+        .ksijkkrkk5545 {
+          font-family: "Poppins", sans-serif;
+          font-size: 20px;
+          font-weight: 500;
+          margin-top: 20px;
+          color:"#000";
+        }
 
-          .logo-container img {
-            width: 100px; /* Adjust the size as needed */
-            height: auto;
-          }
-        </style>
+        .headimg {
+          display: flex;
+          justify-content: center;
+          margin-top: 50px;
+        }
+        .imgclass {
+          width: 200px;
+          height: auto;
+        }
+        .bigborder {
+          width: 700px;
+          height: 950px;
+          background-color: #ffff;
+        }
+        .bigdiv {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 40px;
+        }
+        .wellcome {
+          font-size: 36px;
+          text-align: center;
+          padding-top: 50px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          color:"#000";
+        }
+        .thumps {
+          width: 250px;
+          height: auto;
+        }
+        .imgdiv {
+          display: flex;
+          justify-content: center;
+        }
+        .hello {
+          font-family: "Poppins", sans-serif;
+          font-size: 24px;
+          font-weight: 600;
+          color: black;
+          margin-top: 50px;
+          color:"#000";
+        }
+        .contentdiv {
+          display: flex;
+          justify-content: center;
+        }
+        .widthdiv {
+          width: 550px;
+        }
+        .paras {
+          font-family: "Poppins", sans-serif;
+          font-size: 18px;
+          font-weight: 400;
+          margin-top: 20px;
+          text-align: justify;
+          color:"#000";
+        }
+        .summitbutton {
+          background-color: #00afff;
+          border: none;
+          width: 250px;
+          height: 60px;
+          border-radius: 5px;
+          margin-top: 40px;
+          font-family: "Poppins", sans-serif;
+          font-size: 17px;
+          font-weight: 400;
+          color: azure;
+         
+        }
+        .butdiv {
+          display: flex;
+          color:"#000";
+          justify-content: center;
+        }
+        .base {
+          color: #00afff;
+          text-decoration: underline;
+        }
+      }
+
+      @media (max-width: 650px) {
+        .headimg {
+          display: flex;
+          justify-content: center;
+          margin-top: 20px;
+        }
+        .imgclass {
+          width: 150px;
+          height: auto;
+        }
+        .bigborder {
+          width: 100%;
+          height: auto;
+      
+        }
+        .bigdiv {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 0px;
+        }
+        .wellcome {
+          font-size: 20px;
+          text-align: center;
+          padding-top: 20px;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          color:"#000";
+        }
+        .thumps {
+          width: 100%;
+          height: auto;
+        }
+        .imgdiv {
+          display: flex;
+          justify-content: center;
+        }
+        .hello {
+          font-family: "Poppins", sans-serif;
+          font-size: 15px;
+          font-weight: 600;
+          color: black;
+          margin-top: 20px;
+          color:"#000";
+        }
+        .contentdiv {
+          display: flex;
+          justify-content: center;
+        }
+        .widthdiv {
+          width: 100%;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+        .paras {
+          font-family: "Poppins", sans-serif;
+          font-size: 15px;
+          font-weight: 400;
+          margin-top: 20px;
+          text-align: left;
+          color:"#000";
+        }
+        .summitbutton {
+          background-color: #00afff;
+          border: none;
+          width: 1005;
+          height: auto;
+          border-radius: 5px;
+          margin-top: 40px;
+          font-family: "Poppins", sans-serif;
+          font-size: 13px;
+          font-weight: 400;
+          color: azure;
+        }
+        .butdiv {
+          display: flex;
+          justify-content: center;
+        }
+        .base {
+          color: #00afff;
+          text-decoration: underline;
+        }
+      }
+    </style>
       </head>
       <body>
+            <div>
+      <div class="headimg">
         <div>
-          <h1>${Subject}</h1>
+          <img class="imgclass" src="./images/revnitro final WB 2.png" alt="" />
         </div>
-        <div class="notification-container">
-          <p>Name: <strong>${details.personname}</strong></p>
-          <p>Email: <strong>${details.email}</strong></p>
-          <p>Mobile Number: <strong>${details.phoneNo}</strong></p>
-          <p>Location: <strong>${details.location}</strong></p>
-          <p>Address: <strong>${details.address}</strong></p>
-          <p>Bike Name: <strong>${details.bikename}</strong></p>
-          <p>Bike Model: <strong>${details.bikemodel}</strong></p>
-          <p>My Issues: <strong>${details.issues}</strong></p>
-          <p>Service Location: <strong>${details.serviceLocation}</strong></p>
-          <br/>
-          <br/>
-          <div class="logo-container">
-          <p>With Regards,</p>
-          <p>Team RevNitro</p>
+      </div>
+      <div class="bigdiv">
+        <div class="bigborder">
+          <div>
+            <div class="wellcome">Thank You for Your Submission!</div>
+          </div>
+          <div>
+            <div class="imgdiv">
+              <img class="thumps" src="./images/yellow bike.png" alt="" />
+            </div>
+          </div>
+          <div class="contentdiv">
+            <div class="widthdiv">
+              <div>
+                <div class="hello">Hi ${details.personname},</div>
+              </div>
+              <div>
+                <div class="paras">
+                  Thank you for taking the time to fill out our 
+                  <span
+                    ><a href="https://forms.revnitro.com/BikeServiceBooking"
+                      >forms.revnitro.com/BikeServiceBooking</a
+                    ></span
+                  >
+                  . We’ve received your submission and wanted to let you know
+                  that we’re currently reviewing the information you provided.
+                </div>
+              </div>
+              <!-- <div class="butdiv">
+                <button class="summitbutton" type="submit">
+                  LOGIN TO YOUR ACCOUNT
+                </button>
+              </div> -->
+
+              <div>
+                <div class="ksijkkrkk5545">
+                  We will review your request and get back to you Soon
+                </div>
+              </div>
+
+              <div>
+                <div class="paras">
+                  If you have any questions or need to make changes to your
+                  submission, please feel free to reply to this email or contact
+                  us at
+                  <a href="https://forms.revnitro.com/contact"
+                    >forms.revnitro.com/contact</a
+                  >.
+                </div>
+              </div>
+
+              <div>
+                <div class="ijrtiririririri">
+                  We appreciate your interest and look forward to assisting you!
+                </div>
+              </div>
+
+              <div>
+                <div class="paras">
+                  Best regards,<br />
+
+
+                  <img  class="gshehehe"
+          src="	https://revnitro.com/images/Group%2026.png"
+          alt="RevNitro Logo"
+        />
+
+                  <div>
+                    <a href="https://revnitro.com">www.revnitro.com</a><br />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </div>
       </body>
     </html>
+    
     `;
     await sendMailWithPDF(process.env.nodeMailer_User, Subject, content);
     await sendMail(details.email, Subject, customercontent);
